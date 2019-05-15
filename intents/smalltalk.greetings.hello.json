@@ -1,0 +1,37 @@
+{
+  "id": "f19d662c-847d-4f4d-afee-746d6fad7e7d",
+  "name": "smalltalk.greetings.hello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.hello",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi there, friend!",
+            "Hi!",
+            "Hey!",
+            "Hey there!",
+            "Good day!",
+            "Hello!",
+            "Greetings!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529623823,
+  "fallbackIntent": false,
+  "events": []
+}

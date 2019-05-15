@@ -1,0 +1,34 @@
+{
+  "id": "919ead76-eac7-4110-96bc-39fa24f784eb",
+  "name": "smalltalk.agent.my_friend",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.my_friend",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Of course I\u0027m your friend.",
+            "Friends? Absolutely.",
+            "Of course we\u0027re friends.",
+            "I always enjoy talking to you, friend."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529436060,
+  "fallbackIntent": false,
+  "events": []
+}

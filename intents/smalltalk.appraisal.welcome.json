@@ -1,0 +1,33 @@
+{
+  "id": "e2b37f50-b43e-4168-88e1-80ba9dd58375",
+  "name": "smalltalk.appraisal.welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "You\u0027re so polite!",
+            "Nice manners!",
+            "You\u0027re so courteous!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529440574,
+  "fallbackIntent": false,
+  "events": []
+}

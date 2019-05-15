@@ -1,0 +1,202 @@
+{
+  "id": "ae2aa1ea-7a24-40a8-a013-c4d8e8825ef8",
+  "name": "Book Hotel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "BookHotel-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7b814299-23e9-40a0-85fa-57d3ba8b9006",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which city do you prefer ?"
+            },
+            {
+              "lang": "en",
+              "value": "Which city do prefer to stay ?"
+            },
+            {
+              "lang": "en",
+              "value": "Please Type a City Name which you prefer"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "eadedabf-0970-4445-b60f-45ccc3263835",
+          "required": true,
+          "dataType": "@hotelnames",
+          "name": "hotelname",
+          "value": "$hotelname",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which Hotel do you prefer to stay in $geo-city?"
+            },
+            {
+              "lang": "en",
+              "value": "Which Hotel do you prefer in $geo-city?"
+            },
+            {
+              "lang": "en",
+              "value": "Please Type Hotel Name which you prefer in $geo-city"
+            },
+            {
+              "lang": "en",
+              "value": "Hotel Name Please in $geo-city"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "3aa303be-5756-4be0-a9ec-39469cddfdc2",
+          "required": true,
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which dates do you want to stay in hotel?"
+            },
+            {
+              "lang": "en",
+              "value": "Which days do you need a room ?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "4108f458-e658-43d5-9c45-4034d22d6acd",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please Type Guest Number"
+            },
+            {
+              "lang": "en",
+              "value": "Please Type Number of Guests which planning to stay in $hotelname Hotel"
+            },
+            {
+              "lang": "en",
+              "value": "How many people are going to stay in $hotelname Hotel ?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "916e8bb4-febc-4367-a29a-7bd9e89df222",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "reservation_name",
+          "value": "$reservation_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you share your name for reservation"
+            }
+          ],
+          "defaultValue": "",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Booking.com",
+          "formattedText": "Link",
+          "buttons": [
+            {
+              "title": "booking link",
+              "openUrlAction": {
+                "url": "https://www.booking.com/index.html?aid\u003d376386;label\u003dbdot-5AYNIZCr4F_ZVwlXJVqZ9AS267778037884:pl:ta:p1:p22.348.000:ac:ap1t1:neg:fi:tiaud-294889296213:kwd-334108349:lp21056:li:dec:dm;ws\u003d\u0026gclid\u003dCjwKCAjw_MnmBRAoEiwAPRRWW5H5R1DMe6FI_p5FK5W8oHVbICIVjqk0y0Bua9YGIPL2lK_v8NskrhoCaG0QAvD_BwE",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Martı"
+            },
+            {
+              "title": "Dedeman"
+            },
+            {
+              "title": "Rixos"
+            },
+            {
+              "title": "Diamond"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Reservation Link for $reservation_name with $number people in $geo-city at $date-period in $hotelname Hotel : https://marti.hweb.com/tr/marti-resort/2019-04-29/2019-04-30/2/?cs\u003dtrue"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Reservation LINK",
+          "imageUrl": "",
+          "buttons": [
+            {
+              "text": "Reservation",
+              "postback": "https://marti.hweb.com/tr/marti-resort/2019-04-29/2019-04-30/2/?cs\u003dtrue"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Please Rate Your Experience with Our Bot",
+          "replies": [
+            "Poor",
+            "Fair",
+            "Good",
+            "Very Good",
+            "Excellent"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

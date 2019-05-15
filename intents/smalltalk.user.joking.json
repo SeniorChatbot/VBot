@@ -1,0 +1,34 @@
+{
+  "id": "c87b55af-7ad2-4ccc-8814-3b71921d529f",
+  "name": "smalltalk.user.joking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.joking",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Very funny.",
+            "I like chatting with people who have a sense of humor.",
+            "You got me!",
+            "You\u0027re quite the comedian."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529441326,
+  "fallbackIntent": false,
+  "events": []
+}

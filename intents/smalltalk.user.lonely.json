@@ -1,0 +1,32 @@
+{
+  "id": "b4de0616-5f35-4600-a733-3765327dcdd0",
+  "name": "smalltalk.user.lonely",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.lonely",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry. I\u0027m always available if you need someone to talk to.",
+            "Sometimes that happens. We can chat a bit if that will help you."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529441366,
+  "fallbackIntent": false,
+  "events": []
+}

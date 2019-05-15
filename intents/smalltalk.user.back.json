@@ -1,0 +1,35 @@
+{
+  "id": "a4be9a0a-7b32-46f0-9b11-664712400baa",
+  "name": "smalltalk.user.back",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.back",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Long time no see. What\u0027s up?",
+            "Just in time. How can I help?",
+            "Welcome back. What can I do for you?",
+            "You were missed. What can I do for you today?",
+            "Good to have you here. What can I do for you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529517102,
+  "fallbackIntent": false,
+  "events": []
+}

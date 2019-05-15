@@ -1,0 +1,162 @@
+[
+  {
+    "id": "f1b6b59b-4317-4b51-87ba-3a5961784b1b",
+    "data": [
+      {
+        "text": "room please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3fd47d04-d268-41f9-a026-359f014f7198",
+    "data": [
+      {
+        "text": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a7592269-1892-4a8c-8945-da5ac7cc6353",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Sefa",
+        "alias": "reservation_name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1cee86c6-a4ec-4aa5-a6f6-91e764dc91aa",
+    "data": [
+      {
+        "text": "I want need room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3104152c-66a5-4a5f-ad2b-de9ee6dc5b94",
+    "data": [
+      {
+        "text": "I need travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "46d75b2a-7df0-497e-baf1-c0683e13e395",
+    "data": [
+      {
+        "text": "I want to go to holiday",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0247602f-44d0-4846-b1e0-2301ff79eed8",
+    "data": [
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " of us are going to ",
+        "userDefined": false
+      },
+      {
+        "text": "Antalya",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a978ecc7-6315-4b98-9122-f6f50609d61f",
+    "data": [
+      {
+        "text": "I need a place on ",
+        "userDefined": false
+      },
+      {
+        "text": "friday",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "96cd6ddb-28f4-4392-bc2c-3de2725acd8e",
+    "data": [
+      {
+        "text": "I want to stay a ",
+        "userDefined": false
+      },
+      {
+        "text": "martı",
+        "alias": "hotelname",
+        "meta": "@hotelnames",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "antalya",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "58b4fe1c-ddc5-4037-b4d2-5a5f6adcc982",
+    "data": [
+      {
+        "text": "book a hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

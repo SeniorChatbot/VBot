@@ -1,0 +1,33 @@
+{
+  "id": "af0479ea-9f62-44ea-a9b0-5ea824e2dd03",
+  "name": "smalltalk.agent.origin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.origin",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "The Internet is my home. I know it quite well.",
+            "I\u0027m from a virtual cosmos.",
+            "Some call it cyberspace, but that sounds cooler than it is."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529436417,
+  "fallbackIntent": false,
+  "events": []
+}

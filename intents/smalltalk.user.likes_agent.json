@@ -1,0 +1,34 @@
+{
+  "id": "bb70adfc-31b5-40ac-aeab-ccc26fc93569",
+  "name": "smalltalk.user.likes_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.likes_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I like you, too.",
+            "Thanks! The feeling is mutual.",
+            "Likewise!",
+            "That\u0027s great to hear."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529441345,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "74e4e4ea-3b4d-4cb0-9b6e-4db1641e2a42",
+  "name": "smalltalk.agent.boss",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.boss",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "My developer has authority over my actions.",
+            "I act on my developer\u0027s orders.",
+            "My boss is the one who developed me."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529433413,
+  "fallbackIntent": false,
+  "events": []
+}
